@@ -105,6 +105,8 @@ a {
 .square-two-text,
 .square-three-text,
 .square-fourth-text {
+    padding-top: 15px;
+    padding-bottom: 100px;
     width: 200px;
 }
 
@@ -117,4 +119,28 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+
+blockquote {
+    padding: 100px;
+    width: 1000px;
+}
+
+blockquote footer {
+    text-align: right;
+    font-weight: 900;
+}
+
+.container-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
 }
