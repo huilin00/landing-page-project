@@ -91,6 +91,16 @@ a {
     height: 200px;
     border-radius: 20px;
     border: 4px solid #3882F6;
+    overflow: hidden;
+}
+
+.square-one img,
+.square-two img,
+.square-three img,
+.square-fourth img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .square-one-container,
